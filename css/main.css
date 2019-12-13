@@ -1,0 +1,230 @@
+            body{
+				margin: 0;
+				padding: 0;
+			}
+			.fixed{
+				/*margin: 0;*/
+				width: 100%;
+				min-width: 1003px;
+				height: 55px;
+				/*background-color: #66CCCC;*/
+				background-image: url(../img/Beach.jpg);
+				position: fixed;
+				top: 0;
+			}
+			.fixed button{
+				border-radius: 20px;
+				background-color: inherit;
+				float: right;
+				margin-right: 20px;
+				border: none;
+				padding: 8px 30px;
+				border: 1px solid white;
+				font-size: 14px;
+				font-family: "微软雅黑";
+				font-weight: lighter;
+				text-decoration: none;
+				color: whitesmoke;
+				outline: none;
+			}
+			.fixed button:hover{
+				opacity: 0.6;
+			}
+			.fixed ul{
+				padding: 7px 0;
+				margin: 0;
+				list-style-type: none;
+				overflow: hidden;
+			}
+			.fixed ul li{
+				float: left;
+				padding: 10px 20px;
+				margin-left: 65px;
+			}
+			.fixed ul li:hover:not(.about){
+				border-bottom: 1px solid white;
+			}
+			.fixed ul li a{
+				font-size: 14px;
+				font-family: "微软雅黑";
+				font-weight: lighter;
+				text-decoration: none;
+				color: whitesmoke;
+			}
+			.fixed .about{
+				margin-top: 0;
+				margin-right: 20px;
+				float: right;
+				background-color: #4CAF50;
+			}
+			.major{
+				/*width: 1456px;*/
+				margin: 55px auto;
+				z-index: -1;
+			}
+			.head{
+				margin: auto;   /*内部区块水平居中*/
+				text-align: center;	
+			}
+			.head .header{
+				background-image: url(../img/Beach3.jpg);
+				padding: 20px 0 40px 0;	
+			}
+			.head .header .Supreme{
+				margin: 0;
+				font: 80px sans-serif;
+				color: whitesmoke;
+				padding-bottom: 30px;
+			}
+		    .head .header .button{
+		    	
+				font-size: 20px;
+				border: none;
+				padding: 12px 40px;
+				background: #8A2BE2;
+				border-radius: 40px;	
+				outline: none;
+			}
+			.head .header button:hover{
+				background-color: coral;
+				color: whitesmoke;
+				
+			}
+			.search{
+				border-style: none none none solid ;
+				border-left-color: deepskyblue;
+				border-left-width: 8px;
+				background-color: powderblue;
+				width: 500px;
+				height: 45px;
+				font: 15px sans-serif;
+				font-weight: 300;
+				text-indent:20px;
+				outline: none;
+				border-radius: 5px;
+			}
+			.middle{
+				/*width: 1456px;*/
+				padding: 30px 0;
+				background-color: #f7f7f7;
+			}
+			.name{
+				margin: 0;
+				font: 36px sans-serif;	
+				font-weight: 300;
+				padding-top: 10px;
+				text-align: center;
+			}
+			
+			.background{
+				background-image: url(../img/3.jpg);
+				margin: 0 auto;
+			}
+			.footer{
+				width: 1300px;
+				height: 560px;
+				text-align: center;
+				margin: 0 auto;
+			}
+			video{
+				margin-top: 45px;
+				width: 730px;
+				height: 410px;
+				border-radius: 15px;
+				outline: none;
+			}
+			.footer .c_left{
+				margin-top: 70px;
+				display: inline-block;
+				float: left;
+				height: 360px;
+				/*width: 220px;*/
+				background-color: #CCCCCC;
+				border-radius: 10px;
+			}
+			.footer .c_left ul{
+				padding: 0;
+				margin-top: 26px;
+				list-style-type: none;
+			}
+			.footer .c_left ul li{
+				border: none;
+			}
+			.footer .c_left ul li a{
+				padding: 15px 55px;
+				display: block;
+				font: 16px sans-serif;
+				font-weight: 300;
+				color: black;
+			}
+			.footer .c_left a:hover{
+				color: white;
+				background-color: #999999;
+				border: none;
+				border-radius: 4px;
+			}
+			.footer .c_right{
+				margin-top: 90px;
+				display: inline-block;
+				float: right;
+				height: 300px;
+				width: 200px;
+				background-color: #CCCCCC;
+				border-radius: 10px;
+			}
+			.footer .c_right .c_r_center{
+				margin-top: 20px;
+			}
+			.footer .c_right button{
+				border: none;
+				background-color: #4CAF50;
+				padding: 12px 60px;
+				border-radius: 25px;
+				margin: 30px 0 0 0;
+				outline: none;	
+			}
+			.footer .c_right button:hover{
+				color: whitesmoke;
+				opacity: 0.8;
+			}
+			.avatar{
+				
+				width: 100px;
+				height: 100px;
+				border-radius: 50px;
+			}
+			.control{
+				margin-top: 30px;
+				height: 50px;
+			}
+			.under{
+				margin: 0;
+				height: 100px;
+				background-color: #4CAF50;
+			}
+			.bottom{
+				margin: 0;	
+			}
+			.control button{
+				font-size: 15px;
+				font-weight: 300;
+				width: 100px;
+				height: 40px;
+				border: none;
+				border-radius: 40px;
+				margin-left: 10px;
+				outline: none;
+			}
+			.control button:hover{
+				color: whitesmoke;
+			}
+			.words{
+				padding: 10px 0;
+				background-color: #f7f7f7;
+				text-align: center;
+				font: 12px sans-serif;
+				font-weight: 300;
+				line-height: 30px;
+			}
+			
+			

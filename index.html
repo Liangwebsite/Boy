@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<title>Interactive learning player</title>
+		
+		<link rel="stylesheet" type="text/css"  href="css/main.css"/>
+		<link rel="stylesheet" type="text/css"  href="css/Popup.css"/>
+		<!--<link rel="stylesheet" type="text/css" href="css/watch.css"/>-->
+		<script src="js/watch.js"></script>
+			
+	</head>
+	
+	<body>
+		<div class="fixed">
+				<ul>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">Play</a></li>
+				<li><a href="#">高等数学</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">课程</a></li>
+				<li><a href="#">App</a></li>
+				<button>关于</button>
+			</ul>
+			
+		</div>
+		
+		<div class="major">
+			<div class="head">
+					<div class="header">
+					<p class="Supreme">Supreme</p><br />
+					<input class="search" placeholder="Type something here" ></input>
+					<button class="button">Go</button>
+				</div>
+			    <div class="middle">
+					<p class="name">Interactive learning player</p><br />
+					<p style="font-size: 16px;font-weight: 300;">Practice makes perfect  And  Be a brilliant man of wide learning</p>
+			    </div>
+			</div>
+		
+		<div class="background">
+			<div class="footer">
+				<div class="c_left">
+					<ul>
+						<li><a >Java Web</a></li>
+						<li><a >编程技术</a></li>
+						<li><a >理工补习</a></li>
+						<li><a >实用英语</a></li>
+						<li><a >考证就业</a></li>
+						<li><a >高等数学</a></li>
+					</ul>
+				</div>
+				<div class="c_right">
+					<div class="c_r_center">
+						<div class="img">
+							<img src="img/img_avatar.png" class="avatar"/>
+						</div>
+						<button>注册</button><br />
+					    <button>登录</button>
+					</div>	
+				</div>
+				<div class="move">
+					<video id="videos" preload="auto">
+					<source src="img/vide.mp4"></source>
+				</video>
+				</div>
+				
+				<div class="control">
+					<button onclick="playPause()" style="background-color: #008CBA">播放/暂停</button>
+					<button onclick="chickMe()" style="background-color: #999966;">举手提问</button>
+					<button onclick="funStart(this);" id="btnStart" disabled style="background-color: #CC6699;">录制</button>
+	                <button onclick="funStop(this);" id="btnStop" disabled style="background-color: gold;">停止</button>
+	                <button onclick="funUpload(this);" id="btnUpload" disabled style="background-color: #33CC33;">上传</button>
+				</div>
+				<div id="recordingslist"></div>
+			</div>
+			
+			<div class="words">
+				<p style="font-size: 16px;">我扑在书上就像饥饿的人扑在面包上</p>
+				<p>Contact me</p>
+		    </div>
+	    </div>
+		    
+		    
+		    <!--弹窗-->
+		    <div class="tc">
+                    <div id="d2"></div>
+                    <!-- <button onclick="chickMe()">点击</button> -->
+                    <div id="d1">
+                    <div class="top">
+                        <!-- <span>444</span> -->
+                        <div class="tc_tit">
+                            <!--<span class="xstwtc"></span>-->
+                            <a href="javascript:void(0)" onclick="closes()">&#935;</a>
+                        </div>
+                        <div class="question">你是否能从视频中的设计风格受到启发</div>
+                    </div>
+                    <input type="text" class="number" placeholder="请输入" id="number">
+                    <div class="submit">
+                        <!-- <input type="checkbox" value="111"> -->
+                        <button class="cancel"onclick="cancel()">取消</button>
+                        <button class="confirm" onclick="confirm()">确定</button>
+                    </div>
+                </div>
+            </div>
+
+	</body>
+</html>
+
+<script src="js/recordmp3.js"></script>
+
+
+
+<script src="js/playPause.js"></script>
+
+<script src="js/record.js"></script>
